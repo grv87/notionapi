@@ -255,9 +255,11 @@ const (
 )
 
 const (
-	RollupTypeNumber RollupType = "number"
-	RollupTypeDate   RollupType = "date"
-	RollupTypeArray  RollupType = "array"
+	RollupTypeNumber      RollupType = "number"
+	RollupTypeDate        RollupType = "date"
+	RollupTypeArray       RollupType = "array"
+	RollupTypeIncomplete  RollupType = "incomplete"
+	RollupTypeUnsupported RollupType = "unsupported"
 )
 
 const (

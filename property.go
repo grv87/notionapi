@@ -201,6 +201,7 @@ type Rollup struct {
 	Number float64       `json:"number,omitempty"`
 	Date   *DateObject   `json:"date,omitempty"`
 	Array  PropertyArray `json:"array,omitempty"`
+	// TODO: incomplete, unsupported
 }
 
 func (p RollupProperty) GetID() string {
